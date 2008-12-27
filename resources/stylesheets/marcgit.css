@@ -1,0 +1,209 @@
+/* CSS Document */
+
+* {font-family: "Courier New", Courier, monospace;
+	 font-size: 10pt;
+	 color: black;
+  }
+
+img {
+  margin: 0;
+  padding: 0;
+  border: 10px solid #EEE;}
+
+a {color: #787C87;}
+
+
+p {border-width: 0.5em; 
+   font-size: 2em; 
+   margin: 0 0 0 -1em; 
+   padding: 0 0 0 0.5em;}
+
+
+h1 {
+	padding-top: 180px;
+	padding-right: 9px;
+	text-align: right;
+	font-size: 1.4em;
+	font-style: italic;
+	color: #EAEEF7;
+}
+
+h2 {
+	padding-right: 9px;
+	margin-bottom: 10px;	
+  text-align: right;
+	font-size: 1.3em;
+	font-style: italic;
+	color: #EAEEF7;
+}
+	
+h3 {
+	padding-top: 7px;
+	padding-bottom:7px;
+	font-style: italic;
+	color: #787C87;
+	font-size: 1.2em;
+}
+
+h4 {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+  color: blue;	
+	font-size: 1.1em;
+}
+
+a:link {color: #0066B3;}
+a:visited {color: #464646;}
+a:hover, a:active, a:focus h1 {color: yellow;}
+
+body {
+	background-color: white /*#6B6D82*/ ;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 62.5%;
+	margin: 0; 
+  padding: 0;
+  color: #787C87;
+}
+	
+#container {
+	margin: 0px auto;
+	width: 797px;
+	color: #797D88;
+	font-size: 1.2em;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+	background-image: url(../images/mywindow.jpg);
+	height: 249px;
+	text-align: right;
+	padding-right: 9px;
+}
+
+#header h1 a {
+	padding-top: 200px;
+	padding-right: 9px;
+	text-align: right;
+	font-size: 1.3em;
+	font-style: italic;
+	color: white;
+}
+
+#header h1 a:hover, a:active, a:focus h1 {color: yellow;}
+
+#header h2 a {
+	padding-right: 9px;
+	margin-bottom: 10px;	
+  text-align: right;
+	font-size: 1em;
+	font-style: italic;
+	color: #EAEEF7;
+}
+
+#header img {
+  margin: 0;
+  padding: 0;
+  border: none;}
+
+
+#linkbar {
+	height: 79px;
+}
+
+#content {
+  margin: 0px auto;
+	padding-left: 80px;
+	padding-right: 80px;
+  color: #787C87;
+}
+
+#right_menu {
+	height: 365px;
+	width: 277px;
+	float: right;
+	margin-right: -80px!important;
+	margin-right: -40px;
+}
+
+#footer {
+	height: 63px;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 1.1em;
+  color: #787C87;
+}
+
+#footer p {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+#footer a {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+#footer a:hover, a:active, a:focus h1 {color: blue;}
+
+#footer img {border: none;}
+
+/******************************* menu ****************************************/
+
+#navcontainer ul
+{
+	margin-left: 100px!important;
+	margin-left: 50px;
+	color: blue;
+	float: left;
+	margin-top: 14px;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+color: #666666;
+float: left;
+}
+
+#navcontainer ul li a:hover
+{
+color: #FF8000;
+}
+
+/********************************' right menu *******************************/
+
+.navcontainer {
+	width: 200px;
+	margin-left: 40px;
+}
+
+.navcontainer ul
+{
+margin-left: 0;
+padding-left: 0;
+list-style-type: none;
+}
+
+.navcontainer a
+{
+display: block;
+padding: 3px;
+width: 168px;
+border-bottom: 1px solid #BFC2C9;
+}
+
+.navcontainer a:link, .navlist a:visited
+{
+color: #666666;
+text-decoration: none;
+}
+
+.navcontainer a:hover
+{
+background-color: #fff;
+color: green;
+}
