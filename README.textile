@@ -1,0 +1,16 @@
+h1. That is my personal page at gighub.
+
+Welcome to My personal page at gighub. 
+
+It was my first planned way on using HTML and CSS.
+
+h2. My other goals with this page are:
+
+* Tell you a bit more about me: MarcRic
+* Improve my skills on github (my first "real" project here")
+* Provide another page template at github (free to use and improve)
+* Just HTML and CSS, nothing else (I think I'm Zen with this)
+
+h2. Extra Information
+
+* "This work is totally under the WTF Public License: ":http://sam.zoy.org/wtfpl/
